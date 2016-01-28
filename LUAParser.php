@@ -1,4 +1,6 @@
 <?php
+
+namespace LUAParser;
 /**
  * A class to parse LUA files to an PHP array.
  *
