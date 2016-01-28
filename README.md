@@ -16,7 +16,7 @@ Tested with PHP version 5.6.11
 ### Example usage: ###
 
 ```php
-require('parser.php');
+require('LUAParser.php');
 
 $parser = new LUAParser();
 
@@ -32,7 +32,7 @@ catch(Exception $e) {
 ### Example usage with optional syntax checking: ###
 
 ```php
-require('parser.php');
+require('LUAParser.php');
 
 $parser = new LUAParser();
 
@@ -55,7 +55,7 @@ catch(Exception $e) {
 ### Example multiple file usage: ###
 
 ```php
-require('parser.php');
+require('LUAParser.php');
 
 $parser = new LUAParser();
 
