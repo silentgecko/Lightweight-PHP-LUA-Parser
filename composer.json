@@ -1,5 +1,5 @@
 {
-    "name": "LUAParser/LUAParser",
+    "name": "keldorde/luaparser",
     "type": "library",
     "description": "Lightweight LUA Parser for PHP",
     "keywords": ["lua","parse", "php"],
