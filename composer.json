@@ -1,5 +1,5 @@
 {
-    "name": "Lightweight-PHP-LUA-Parser/LUAParser",
+    "name": "LUAParser/LUAParser",
     "type": "library",
     "description": "Lightweight LUA Parser for PHP",
     "keywords": ["lua","parse", "php"],
