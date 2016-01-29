@@ -12,11 +12,25 @@ Tested with PHP version 5.6.11
 | 1,44 MB       | 7.75 MB           | 0.149 Sec.     |
 | 4,32 MB       | 11.00 MB          | 0.844 Sec.     |
 
+### installation: ###
+add repository:
+```code
+"repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/silentgecko/Lightweight-PHP-LUA-Parser.git"
+        }
+    ],
+```
+then:
+```code
+composer require keldorde/luaparser
+```
 
 ### Example usage: ###
 
 ```php
-require('LUAParser.php');
+use LUAParser\LUAParser;
 
 $parser = new LUAParser();
 
@@ -32,7 +46,7 @@ catch(Exception $e) {
 ### Example usage with optional syntax checking: ###
 
 ```php
-require('LUAParser.php');
+use LUAParser\LUAParser;
 
 $parser = new LUAParser();
 
@@ -55,7 +69,7 @@ catch(Exception $e) {
 ### Example multiple file usage: ###
 
 ```php
-require('LUAParser.php');
+use LUAParser\LUAParser;
 
 $parser = new LUAParser();
 
