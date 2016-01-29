@@ -24,7 +24,6 @@
     },
     
     "autoload": {
-        "psr-0": { "LUAParser\\LUAParser": "" }
-    },
-    "target-dir": "LUAParser"
+        "psr-0": { "LUAParser": "" }
+    }
 }
