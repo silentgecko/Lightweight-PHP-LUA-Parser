@@ -1,6 +1,6 @@
 <?php
 
-namespace LUAParser;
+namespace KeldorDe;
 /**
  * A class to parse LUA files to an PHP array.
  *
